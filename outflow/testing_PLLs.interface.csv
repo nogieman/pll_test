@@ -1,0 +1,25 @@
+
+# Efinity Interface Configuration
+# Version: 2025.1.110.2.15
+# Date: 2025-07-25 18:42
+
+# Copyright (C) 2013 - 2025 Efinix Inc. All rights reserved.
+
+# [required | optional] (input|output|clkout), x, y, z, __bypass__|[~|!]<clock>, [[~|!]<pin_name>] | __vcc__ | __gnd__
+input, 0, 6, 3, __bypass__, bscan_CAPTURE
+input, 0, 2, 3, __bypass__, bscan_DRCK
+input, 0, 4, 3, __bypass__, bscan_RESET
+input, 0, 5, 1, __bypass__, bscan_RUNTEST
+input, 0, 2, 1, __bypass__, bscan_SEL
+input, 0, 5, 3, __bypass__, bscan_SHIFT
+input, 0, 4, 1, __bypass__, bscan_TCK
+input, 0, 3, 1, __bypass__, bscan_TDI
+output, 0, 2, 0, __bypass__, bscan_TDO
+input, 0, 3, 3, __bypass__, bscan_TMS
+input, 0, 6, 1, __bypass__, bscan_UPDATE
+input, 338, 323, 1, __bypass__, clk
+input, 338, 321, 1, __bypass__, clk_0
+optional input, 338, 9, 1, __bypass__, clk_0_
+input, 338, 320, 1, __bypass__, clk_1
+optional input, 338, 7, 1, __bypass__, clk_1_
+optional input, 338, 5, 1, __bypass__, clk__

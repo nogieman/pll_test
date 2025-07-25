@@ -1,0 +1,540 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 17:57:48
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/opt/efinix/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:1)
+[EFX-0012 VERI-INFO] compiling module 'test_counter' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[255]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[254]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[253]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[252]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[251]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[250]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[249]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[248]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[247]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[246]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[245]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[244]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[243]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[242]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[241]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[240]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[239]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[238]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[237]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[236]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 42 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk_1' with 277 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_0' with 277 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 69 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 10s CPU user time : 8s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 8s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 68, ed: 264, lv: 2, pw: 1422.87
+[EFX-0000 INFO] ... LUT mapping end (Real time : 0s CPU user time : 8s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 8s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk_1~clk_1' with 270 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_0~clk_0' with 270 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 6s CPU user time : 14s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	536
+[EFX-0000 INFO] EFX_LUT4        : 	68
+[EFX-0000 INFO] EFX_FF          : 	540
+[EFX-0000 INFO] EFX_GBUFCE      : 	2
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 398352KB)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:21:08
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/opt/efinix/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0010 VERI-ERROR] syntax error near ')' (VERI-1137) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:22)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:25:44
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/opt/efinix/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:1)
+[EFX-0012 VERI-INFO] compiling module 'test_counter' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:523)
+[EFX-0012 VERI-INFO] compiling module 'vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1084)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:303)
+[EFX-0012 VERI-INFO] compiling module 'syncer' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1881)
+[EFX-0011 VERI-WARNING] cannot index into scalar type parameter/localparam 'PROBE_OUT_INIT_VAL' (VERI-2572) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1864)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:381)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[33].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1093)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1094)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1095)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1099)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[44]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[43]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[42]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[41]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[40]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[39]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[38]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[37]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[36]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[35]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[34]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[33]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[32]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[31]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[30]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 96 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk' with 1027 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 688 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_1' with 277 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_0' with 277 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 94 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 16s CPU user time : 16s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 16s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 684, ed: 2422, lv: 5, pw: 3026.58
+[EFX-0000 INFO] ... LUT mapping end (Real time : 4s CPU user time : 19s CPU sys time : 2s MEM : 398352KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 19s CPU sys time : 2s MEM : 398352KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk~clk' with 1027 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 686 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_1~clk_1' with 270 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_0~clk_0' with 270 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 13s CPU user time : 32s CPU sys time : 2s MEM : 398352KB)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:10)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:13)
+[EFX-0011 VERI-WARNING] Found 3 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	546
+[EFX-0000 INFO] EFX_LUT4        : 	656
+[EFX-0000 INFO] EFX_FF          : 	2226
+[EFX-0000 INFO] EFX_GBUFCE      : 	4
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 32s CPU sys time : 2s MEM : 398352KB)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:32:06
+///////////////////////////////////
+
+[EFX-0012 VERI-INFO] default VHDL library search path is now "/opt/efinix/efinity/2025.1/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504) 
+[EFX-0012 VERI-INFO] compiling module 'top' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:1)
+[EFX-0012 VERI-INFO] compiling module 'test_counter' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:1)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0012 VERI-INFO] compiling module 'edb_top' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:10)
+[EFX-0012 VERI-INFO] compiling module 'edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:523)
+[EFX-0012 VERI-INFO] compiling module 'vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1084)
+[EFX-0012 VERI-INFO] compiling module 'edb_adbg_crc32' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:303)
+[EFX-0012 VERI-INFO] compiling module 'syncer' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1881)
+[EFX-0011 VERI-WARNING] cannot index into scalar type parameter/localparam 'PROBE_OUT_INIT_VAL' (VERI-2572) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1864)
+[EFX-0012 VERI-INFO] compiling module 'debug_hub' (VERI-1018) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:381)
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+[EFX-0012 VERI-INFO] compiling module 'EFX_ADD' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:8)
+[EFX-0012 VERI-INFO] compiling module 'EFX_FF' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:21)
+[EFX-0012 VERI-INFO] compiling module 'EFX_COMB4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:38)
+[EFX-0012 VERI-INFO] compiling module 'EFX_GBUFCE' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:48)
+[EFX-0012 VERI-INFO] compiling module 'EFX_LUT4' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:57)
+[EFX-0012 VERI-INFO] compiling module 'EFX_MULT' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:65)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP48' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:100)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP24' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:156)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DSP12' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:209)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_4K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:262)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:322)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM_5K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:394)
+[EFX-0012 VERI-INFO] compiling module 'RAMB5' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:499)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM_10K' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:561)
+[EFX-0012 VERI-INFO] compiling module 'EFX_RAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:653)
+[EFX-0012 VERI-INFO] compiling module 'EFX_DPRAM10' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:754)
+[EFX-0012 VERI-INFO] compiling module 'EFX_SRL8' (VERI-1018) (/opt/efinix/efinity/2025.1/sim_models/maplib/efinix_maplib.v:884)
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[0].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[1].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[2].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[3].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[4].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[5].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[6].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[7].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[8].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[9].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[10].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[11].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[12].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[13].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[14].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[15].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[16].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[17].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[18].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[19].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[20].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[21].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[22].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[23].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[24].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[25].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[26].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[27].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[28].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[29].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[30].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[31].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'RSTB' is tied to constant (=0).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[32].sync_probe_in_U' input pin 'ENB' is tied to constant (=1).
+[EFX-0266 INFO] Module Instance 'gen_probe_in_sync[33].sync_probe_in_U' input pin 'RSTA' is tied to constant (=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1093)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1094)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1095)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1099)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[44]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[43]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[42]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[41]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[40]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[39]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[38]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[37]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[36]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[35]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[34]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[33]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[32]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[31]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[30]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "test_counter" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_adbg_crc32" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "syncer" end (Real time : 0s CPU user time : 0s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "vio_core(INT_WIDTH=512,PROBE_OUT_INIT_VAL=1'b0,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_vio_top(NUM_PROBE_IN=2,UUID=128'b11000000101000101001001100110001011011000101101101001100001001101010010011101001111000100101110001100001001010100111101011101000,PROBE_IN0_WIDTH=256,PROBE_IN1_WIDTH=256,PROBE_OUT0_INIT_VAL=256'b0)" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "debug_hub" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "edb_top" end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 96 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 1s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s CPU user time : 1s CPU sys time : 0s MEM : 398352KB)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk_0' with 1304 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK' with 688 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_1' with 277 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 94 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 14s CPU user time : 14s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... Setup for logic synthesis begin
+[EFX-0000 INFO] ... Setup for logic synthesis end (Real time : 0s CPU user time : 14s CPU sys time : 1s MEM : 398352KB)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 690, ed: 2428, lv: 5, pw: 3057.92
+[EFX-0000 INFO] ... LUT mapping end (Real time : 4s CPU user time : 17s CPU sys time : 3s MEM : 398352KB)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s CPU user time : 17s CPU sys time : 3s MEM : 398352KB)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network 'clk_0~clk_0' with 1297 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'bscan_TCK~bscan_TCK' with 686 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Clock Network 'clk_1~clk_1' with 270 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 10s CPU user time : 28s CPU sys time : 3s MEM : 398352KB)
+[EFX-0011 VERI-WARNING] Input/inout port clk is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:2)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:10)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:13)
+[EFX-0011 VERI-WARNING] Found 4 warnings in the post-synthesis netlist. 
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	546
+[EFX-0000 INFO] EFX_LUT4        : 	663
+[EFX-0000 INFO] EFX_FF          : 	2226
+[EFX-0000 INFO] EFX_GBUFCE      : 	3
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] ... Post-Map Verilog Writer begin
+[EFX-0000 INFO] ... Post-Map Verilog Writer end (Real time : 0s CPU user time : 28s CPU sys time : 3s MEM : 398352KB)

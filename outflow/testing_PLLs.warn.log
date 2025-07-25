@@ -1,0 +1,101 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 17:57:48
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[255]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[254]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[253]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[252]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[251]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[250]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[249]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[248]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[247]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[246]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[245]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[244]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[243]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[242]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[241]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[240]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[239]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[238]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[237]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+[EFX-0200 WARNING] Removing redundant signal : r_counter_0[236]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:11)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:21:08
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:25:44
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0011 VERI-WARNING] cannot index into scalar type parameter/localparam 'PROBE_OUT_INIT_VAL' (VERI-2572) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1864)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1093)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1094)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1095)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1099)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[44]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[43]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[42]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[41]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[40]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[39]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[38]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[37]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[36]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[35]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[34]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[33]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[32]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[31]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[30]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:10)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:13)
+[EFX-0011 VERI-WARNING] Found 3 warnings in the post-synthesis netlist. 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Jul 25, 2025 18:32:06
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:19)
+[EFX-0011 VERI-WARNING] expression size 22 truncated to fit in target size 21 (VERI-1209) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/test_counter.v:34)
+[EFX-0011 VERI-WARNING] cannot index into scalar type parameter/localparam 'PROBE_OUT_INIT_VAL' (VERI-2572) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1864)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1092)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RESET. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1093)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1094)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1095)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1099)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[44]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[43]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[42]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[41]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[40]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[39]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[38]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[37]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[36]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[35]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[34]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[33]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[32]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[31]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0200 WARNING] Removing redundant signal : edb_user_dr[30]. (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/debug_top.v:1106)
+[EFX-0011 VERI-WARNING] Input/inout port clk is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:2)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_DRCK is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:10)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_TMS is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:12)
+[EFX-0011 VERI-WARNING] Input/inout port bscan_RUNTEST is unconnected and will be removed. (VDB-8003) (/home/lalli/Downloads/Efinity_stuff/testing_PLLs/top.v:13)
+[EFX-0011 VERI-WARNING] Found 4 warnings in the post-synthesis netlist. 

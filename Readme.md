@@ -1,7 +1,3 @@
-Here’s a solid **README.md** you can drop into your `testing_PLLs` repo:
-
----
-
 ## Testing PLLs on T120F576 FPGA
 
 This project is a **minimal Verilog design** created to test and validate the **PLL clock outputs** on the Efinix Trion T120F576 FPGA (custom board). It uses a simple counter-based approach to verify that different PLL-generated clock branches are toggling as expected.
@@ -91,6 +87,4 @@ This aligns with the Efinix Trion minimum frequency requirements for BR0 (≥25�
 This project is free to use and modify for testing and educational purposes.
 
 ---
-
-👉 Would you like me to **add diagrams** (e.g., simple block diagram of PLL + counters) and show how to interpret the Efinity Debugger results? That would make the README pop for GitHub.
 

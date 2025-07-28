@@ -86,5 +86,3 @@ This aligns with the Efinix Trion minimum frequency requirements for BR0 (â‰¥25â
 
 This project is free to use and modify for testing and educational purposes.
 
----
-
